@@ -1,6 +1,6 @@
 const fs = require('fs')
 const lines = []
-fs.readFileSync('day-1/input.txt', 'utf-8')
+fs.readFileSync('input.txt', 'utf-8')
   .split(/\r?\n/)
   .forEach(function (line) {
     lines.push(line)
